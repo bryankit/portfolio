@@ -1,33 +1,32 @@
-        html,
-        body,
-        header,
-        .jarallax {
-          height: 100%;
-        }
-        .view {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
-    background-size: cover;
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+}
+.view {
+  background: url('https://mdbootstrap.com/img/Photos/Others/img (40).jpg')
+    no-repeat center center;
+  background-size: cover;
 }
 
 .navbar {
-    background-color: transparent;
+  background-color: #212529;
 }
 
 .top-nav-collapse {
-    background-color: #212529;
+  background-color: #212529;
 }
 
 #fb {
-     color: #3b5998;
-    
+  color: #3b5998;
 }
-#li{
-    color: #0077B5;
+#li {
+  color: #0077b5;
 }
-
 
 @media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #212529;
-    }
+  .navbar {
+    background-color: #212529;
+  }
 }

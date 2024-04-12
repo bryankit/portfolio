@@ -1,522 +1,801 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-	<title>Material Design Bootstrap</title>
+    <title>Material Design Bootstrap</title>
 
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-<!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-<!-- Material Design Bootstrap -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
- 
-</head>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
 
-<body class="architect">
-
+  <body class="architect">
     <!--Navigation & Intro-->
     <header>
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto smooth-scroll">
+              <li class="nav-item">
+                <a class="nav-link" href="#home"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" data-offset="90">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio" data-offset="30"
+                  >Portfolio</a
+                >
+              </li>
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mr-auto smooth-scroll">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about" data-offset="90">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio" data-offset="30">Portfolio</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact" data-offset="100">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- Social Icon  -->
-                    <ul class="navbar-nav nav-flex-icons">
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.facebook.com/onemaxrep9000"><i class="fab fa-facebook"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://gitlab.com/bryankit"><i class="fab fa-gitlab"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/bryankit"><i class="fab fa-github"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Intro Section -->
-        <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/People/full%20page/img%20%2827%29.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-            <div class="mask rgba-black-slight">
-                <div class="container h-100 d-flex justify-content-start align-items-center">
-                    <div class="row smooth-scroll">
-                        <div class="col-md-12">
-                            <div class="wow fadeInUp">
-                                <h2 class="display-3 font-weight-bold mb-3">Bryan Kit Batac</h2>
-                                <h4 class="text-uppercase font-weight-bold pb-5">Full Stack Developer</h4>
-                                <h2 class=" mt-3">Welcome to my portfolio!</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" data-offset="100"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <!-- Social Icon  -->
+            <ul class="navbar-nav nav-flex-icons">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/bryan-kit-batac-445731b9/"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://gitlab.com/bryankit"
+                  ><i class="fab fa-gitlab"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  target="_blank"
+                  href="https://github.com/bryankit"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
+      <!-- Intro Section -->
+      <div
+        id="home"
+        class="view jarallax"
+        data-jarallax='{"speed": 0.2}'
+        style="
+          background-image: url('assets/images/Untitled.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+        "
+      >
+        <div class="mask rgba-black-slight">
+          <div
+            class="container h-100 d-flex justify-content-start align-items-center"
+          >
+            <div class="row smooth-scroll">
+              <div class="col-md-12">
+                <div class="wow fadeInUp">
+                  <h2 class="display-3 font-weight-bold mb-3">
+                    Bryan Kit Batac
+                  </h2>
+                  <h4 class="text-uppercase font-weight-bold pb-5">
+                    Full Stack Developer
+                  </h4>
+                  <h2 class="mt-3">Welcome to my portfolio!</h2>
+                  <div class="text-center text-md-left mt-4">
+                    <a
+                      class="btn btn-outline-black"
+                      href="https://drive.google.com/file/d/1QogzGqzHXCnPE3CF1MrMUOA4KYtHRDV7/view"
+                      target="_blank"
+                      ><strong>
+                        <i class="fa fa-download mr-2" aria-hidden="true"> </i
+                        >My Resume</strong
+                      ></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <!--/Navigation & Intro-->
 
     <!--Main layout-->
     <main>
-        
-        <div class="container-fluid" style="background-color: #323438;">
-    
-            <!-- First container -->
-            <div class="container pt-3">
-                
-                <!-- Section About -->
-                <section id="about" class="section pt-2 pb-5">
-                    
-                    <!--Secion heading-->
-                    <h1 class="text-center white-text text-uppercase font-weight-bold mt-5 mb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">About me</h1>
-                    
-                    <!--Section description-->
-                    <p class="text-center white-text text-uppercase font-weight-bold  wow fadeIn" data-wow-delay="0.2s">All about my passion</p>
-                    <div class="line wow fadeIn" data-wow-delay="0.2s"></div>
-                    
-                    <!-- First row -->
-                    <div class="row mt-5 pt-5">
+      <div class="container-fluid" style="background-color: #323438">
+        <!-- First container -->
+        <div class="container pt-3">
+          <!-- Section About -->
+          <section id="about" class="section pt-2 pb-5">
+            <!--Secion heading-->
+            <h1
+              class="text-center white-text text-uppercase font-weight-bold mt-5 mb-3 mt-4 wow fadeIn"
+              data-wow-delay="0.2s"
+            >
+              About me
+            </h1>
 
-                        <!--First column-->
-                        <div class="col-lg-5 col-md-12 mb-5 wow fadeIn" data-wow-delay="0.4s">
-                            
-                            <!--Image-->
-                            <img src="https://mdbootstrap.com/img/Others/121.jpg" class="img-fluid z-depth-1" alt="My photo">
-                        
-                        </div>
-                        <!--/First column-->
+            <!--Section description-->
+            <p
+              class="text-center white-text text-uppercase font-weight-bold wow fadeIn"
+              data-wow-delay="0.2s"
+            >
+              All about my passion
+            </p>
+            <div class="line wow fadeIn" data-wow-delay="0.2s"></div>
 
-                        <!--Second column-->
-                        <div class="col-lg-6 offset-lg-1 col-md-12 wow fadeIn" data-wow-delay="0.4s">
+            <!-- First row -->
+            <div class="row mt-5 pt-5">
+              <!--First column-->
+              <div
+                class="col-lg-5 col-md-12 mb-5 wow fadeIn"
+                data-wow-delay="0.4s"
+              >
+                <!--Image-->
+                <img
+                  src="assets/images/aboutme.png"
+                  class="img-fluid z-depth-1"
+                  alt="My photo"
+                />
+              </div>
+              <!--/First column-->
 
-                            <!--Description-->
-                            <p class="grey-text mb-4" align="justify">Though I am a front-end developer by day, I have put pen to paper during the design process, been completely lost in a full stack environment and have even worn the entrepreneurship hat.</p>
+              <!--Second column-->
+              <div
+                class="col-lg-6 offset-lg-1 col-md-12 wow fadeIn"
+                data-wow-delay="0.4s"
+              >
+                <!--Description-->
+                <p class="grey-text mb-4" align="justify">
+                  Analytically driven Web Developer with almost 5 years of
+                  experience focused on E-Commerce and Solutions Web Development
+                  using latest backend and frontend scripting languages. Having
+                  a practical experience on administrative tasks such as
+                  resource management, and technical leadership.
+                </p>
 
-                           <p class="grey-text mb-4" align="justify"> I am an alumnus of SFU's School of Interactive Arts + Technology program, graduating with a Bachelors of Science with a major in Media Arts. Originally from Vancouver, Canada but now residing in Sydney, Australia, I'm looking to grow personally and professionally anywhere in the world.</p>
-
-                           <p class="grey-text mb-4" align="justify"> I want to be involved in projects that I can be proud of, join an amazing team and advance my development career. Take some time to look at my work, credentials and if you're interested in helping me make this happen, let's get in touch.</p>
-
-                        </div>
-                        <!--/Second column-->
-                    
-                    </div>
-                    <!-- /.First row -->
-                
-                </section>
-            
-            <!-- /.Section About -->
+                <p class="grey-text mb-4" align="justify">
+                  I want to be involved in projects that I can be proud of, join
+                  an amazing team and advance my development career. Take some
+                  time to look at my work, credentials and if you're interested
+                  in helping me make this happen, let's get in touch.
+                </p>
+              </div>
+              <!--/Second column-->
             </div>
-        
+            <!-- /.First row -->
+          </section>
+
+          <!-- /.Section About -->
         </div>
-        <!-- /.First container -->
+      </div>
+      <!-- /.First container -->
 
+      <!-- Second container -->
+      <div class="container">
+        <!-- Second section -->
+        <section id="services" class="section feature-box pt-3 pb-4">
+          <!--Secion heading-->
+          <h1
+            class="text-center text-uppercase font-weight-bold mt-5 mb-3 mt-4 wow fadeIn"
+            data-wow-delay="0.2s"
+          >
+            Technical Expertise
+          </h1>
 
+          <div class="row py-5">
+            <!--First column-->
+            <div
+              class="col-lg-6 col-md-12 mb-3 wow fadeIn"
+              data-wow-delay="0.4s"
+            >
+              <!--Section heading-->
+              <div class="d-flex justify-content-start">
+                <h4
+                  class="text-center text-uppercase pb-3 mt-4 wow fadeIn"
+                  data-wow-delay="0.2s"
+                >
+                  My <strong>experience</strong>
+                </h4>
+              </div>
 
-        <!-- Second container -->
-        <div class="container">
-
-            <!-- Second section -->
-            <section id="services" class="section feature-box pt-3 pb-4">
-                
-                <!--Secion heading-->
-                <h1 class="text-center text-uppercase font-weight-bold  mt-5 mb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">Technical Expertise</h1>
-
-
-                <div class="row py-5">
-                    
-                        <!--First column-->
-                        <div class="col-lg-6 col-md-12 mb-3 wow fadeIn" data-wow-delay="0.4s">
-                        
-                        <!--Section heading-->
-                        <div class="d-flex justify-content-start">
-                            <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">My <strong>experience</strong></h4>
-                        </div>
-                           
-                                <!--Description-->
-                                <blockquote class="blockquote bq-warning mb-4">
-                                    <div class="row"> <i class="fa fa-briefcase fa-x mb-1 mr-3 ml-3 dark-grey-text" aria-hidden="true"></i>
-                                        <h5 class="font-weight-bold mb-3">Senior developer</h5> 
-                                    </div>
-                                    <p class="font-weight-bold ml-1 dark-grey-text mb-2">July, 2013 - Present (4 years)</p>
-                                    <p class="mb-0 ml-1 light-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                                </blockquote>
-                            
-                                <blockquote class="blockquote bq-warning mt-1 mb-4">
-                                    <div class="row"> <i class="fa fa-briefcase fa-x mb-1 mr-3 ml-3 dark-grey-text" aria-hidden="true"></i>
-                                        <h5 class="font-weight-bold mb-3">JavaScript developer</h5> </div>
-                                    <p class="font-weight-bold ml-1 dark-grey-text mb-2">March 2011 - June 2012 (1 year, 3 Month)</p>
-                                    <p class="mb-0 ml-1 light-grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum quas, eos officia maiores ipsam ipsum dolores. </p>
-                                </blockquote>
-                            
-                                <blockquote class="blockquote bq-warning">
-                                    <div class="row"> <i class="fa fa-briefcase fa-x mb-1 mr-3 ml-3 dark-grey-text" aria-hidden="true"></i>
-                                        <h5 class="font-weight-bold mb-3">Web developer</h5> </div>
-                                    <p class="font-weight-bold ml-1 dark-grey-text mb-2"><strong>March 2005 - May 2011 (6 years, 2 Month)</strong></p>
-                                    <p class="mb-0 ml-1 light-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit integer posuere.</p>
-                                </blockquote>
-                                    
-                        </div>
-                        <!--/First column-->
-
-                        <!--Second column-->
-                        <div class="col-lg-5 offset-lg-1 col-md-12 mb-4 wow fadeIn" data-wow-delay="0.4s">
-
-                        <!--Second heading-->
-                        <div class="d-flex justify-content-start">
-                            <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn" data-wow-delay="0.2s">Development <strong>Skills</strong></h4>
-                        </div>
-                            
-                            <!--Description-->
-                            <p class="black-text text-uppercase font-weight-bold" align="justify">Java Script</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-
-                            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">CSS3</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                             
-                            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">HTML5</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            
-                            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">Bootstrap</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            
-                            <p class="black-text text-uppercase font-weight-bold pt-3" align="justify">PHP</p>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 53%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            
-                        </div>
-                        <!--/Second column-->
-
-                    </div>
-                    <!--/First row-->
-
-            </section>
-            <!-- /.Second section -->
-
-        </div>
-        <!--/Second container-->    
-    
-        <!--Third container-->    
-        <div class="container-fluid" style="background-color: #e8eaec;">
-
-            <div class="container-fluid">
-
-                <!--Section: Main portfolio-->
-                <section id="portfolio" class="section pt-3 pb-3">
-
-                    <h1 class="text-center text-uppercase font-weight-bold mt-5 mb-3 mt-5 wow fadeIn" data-wow-delay="0.2s">My projects</h1>
-            
-                    <!--Section description-->
-                    <p class="text-center w-responsive mx-auto text-uppercase font-weight-bold wow fadeIn" data-wow-delay="0.2s">All about my work</p>
-                    <div class="line line-v2 wow fadeIn" data-wow-delay="0.2s"></div>
-                       
-                    <!--Section description-->
-                    <p class="text-center w-responsive mx-auto my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. At ab ea a molestiae corrupti numquam quo beatae minima ratione magni accusantium repellat eveniet quia vitae.</p>
-
-                    <!--First row-->
-                    <!-- Card -->
-                    <div class="container mb-2">
-                        <div class="card card-cascade wider reverse">
-
-                          <!-- Card image -->
-                          <div class="view view-cascade overlay">
-                            <img class="card-img-top" src="assets/images/gym.jpg" alt="Card image cap">
-                            <a href="#!">
-                              <div class="mask rgba-white-slight"></div>
-                            </a>
-                          </div>
-
-                          <!-- Card content -->
-                          <div class="card-body card-body-cascade text-center">
-
-                            <!-- Title -->
-                            <h4 class="card-title"><strong>Alpha Gym</strong></h4>
-                            <!-- Subtitle -->
-                            <h6 class="font-weight-bold indigo-text py-2">GYM</h6>
-                            <!-- Text -->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
-                            </p>
-                           <a href="https://bryankit.github.io/alphagym/" target="_blank"> <button type="button" class="btn btn-outline-primary waves-effect">Visit site</button></a>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="container mb-2">
-                        <div class="card card-cascade wider reverse">
-
-                          <!-- Card image -->
-                          <div class="view view-cascade overlay">
-                            <img class="card-img-top" src="assets/images/coffee.jpg" alt="Card image cap">
-                            <a href="#!">
-                              <div class="mask rgba-white-slight"></div>
-                            </a>
-                          </div>
-
-                          <!-- Card content -->
-                          <div class="card-body card-body-cascade text-center">
-
-                            <!-- Title -->
-                            <h4 class="card-title"><strong>Tara Kape</strong></h4>
-                            <!-- Subtitle -->
-                            <h6 class="font-weight-bold indigo-text py-2">Coffee Shop</h6>
-                            <!-- Text -->
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem perspiciatis voluptatum a, quo nobis, non commodi quia repellendus sequi nulla voluptatem dicta reprehenderit, placeat laborum ut beatae ullam suscipit veniam.
-                            </p>
-                            <a href="https://tarakape.000webhostapp.com/" target="_blank"> <button type="button" class="btn btn-outline-primary waves-effect">Visit site</button></a>
-                          </div>
-                        </div>
-                    </div>
-                           
-                   
-                   
-                    <!-- Card -->
-                    <!--/First row-->
-
-                </section>
-                <!--/Section: Main portfolio-->   
-
-            </div>
-
-        </div>
-        <!--/Third container-->  
-            
-        <!--Streak-->
-        <div class="streak streak-photo streak-md py-4" style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/City/12-col/img%20%2822%29.jpg')">
-            <div class="mask flex-center rgba-stylish-strong py-4">
-                <div class="white-text smooth-scroll wow fadeIn" data-wow-delay="0.2s">
-                   <h3 class="text-center h3-responsive mb-5"><i class="fa fa-quote-left" aria-hidden="true"></i> When something is important enough, you do it even if the odds are not in your favor. 
-                        <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
-                   <h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">~ Elon Musk </h5>
+              <!--Description-->
+              <blockquote class="blockquote bq-warning mb-4">
+                <div class="row">
+                  <i
+                    class="fa fa-briefcase fa-x mb-1 mr-3 ml-3 dark-grey-text"
+                    aria-hidden="true"
+                  ></i>
+                  <h5 class="font-weight-bold mb-3">Fullstack Web Developer</h5>
+                  <h4 class="font-weight-bold mb-3"></h4>
                 </div>
+                <h4 class="font-weight-bold ml-1 dark-grey-text mb-2">
+                  Offshore Business Processing
+                </h4>
+                <p class="font-weight-bold ml-1 dark-grey-text mb-2">
+                  January 2023 - February 2024 (1 year)
+                </p>
+                <p class="mb-0 ml-1 light-grey-text">
+                  As a dedicated Full Stack Web Developer serving BTI Logistic
+                  as a valued client, I am entrusted with crafting innovative
+                  web solutions that optimize logistics operations and enhance
+                  user experiences. Within this client engagement, I leverage
+                  expertise in both front-end and back-end technologies to
+                  contribute to the entire software development lifecycle,
+                  driving robust solutions from concept to deployment.
+                </p>
+              </blockquote>
+
+              <blockquote class="blockquote bq-warning mt-1 mb-4">
+                <div class="row">
+                  <i
+                    class="fa fa-briefcase fa-x mb-1 mr-3 ml-3 dark-grey-text"
+                    aria-hidden="true"
+                  ></i>
+                  <h5 class="font-weight-bold mb-3">Fullstack Web Developer</h5>
+                </div>
+                <h4 class="font-weight-bold ml-1 dark-grey-text mb-2">
+                  Cafe24 Philippines
+                </h4>
+                <p class="font-weight-bold ml-1 dark-grey-text mb-2">
+                  September 2018 - November 2022 (4 years)
+                </p>
+                <p class="mb-0 ml-1 light-grey-text">
+                  One of the lead developer and contributed to overall
+                  development and longevity of the app which promotes their
+                  products and boost the sales of our clients, and one of the
+                  most profitable apps of the Company.
+                </p>
+                <p class="mb-0 ml-1 light-grey-text">
+                  Primary manager of code repository and code quality assurance
+                  of the team, handle the project documentation such as
+                  specification system flow and system architecture.
+                </p>
+                <p class="mb-0 ml-1 light-grey-text">
+                  Development of functions related to e-commerce and
+                  infrastructure system to business requirements using backend
+                  technologies like PHP and Laravel, and frontend using Vue JS
+                  and Javascript
+                </p>
+              </blockquote>
             </div>
-        </div>
-        <!--/Streak-->
-            
-        <!--Fourth container-->
-        <div class="container">
-             
-            <!-- Contact -->
-            <section id="contact" class="section mb-4">
- 
-                <!--Section heading-->
-                <h1 class="text-center text-uppercase font-weight-bold mt-5 pt-4 mb-3 wow fadeIn" data-wow-delay="0.2s">Contact me</h1>
-                <!--Section description-->
-                <p class="text-center  text-uppercase font-weight-bold  wow fadeIn" data-wow-delay="0.2s">to get more information</p>
-                <div class="line wow fadeIn" data-wow-delay="0.2s"></div>
-                
-                <!--Section sescription-->
+            <!--/First column-->
 
-                <div class="row wow fadeIn" data-wow-delay="0.4s">
+            <!--Second column-->
+            <div
+              class="col-lg-5 offset-lg-1 col-md-12 mb-4 wow fadeIn"
+              data-wow-delay="0.4s"
+            >
+              <!--Second heading-->
+              <div class="d-flex justify-content-start">
+                <h4
+                  class="text-center text-uppercase pb-3 mt-4 wow fadeIn"
+                  data-wow-delay="0.2s"
+                >
+                  Development <strong>Skills</strong>
+                </h4>
+              </div>
 
-                    <!--First column-->
-                    <div class="col-md-8 mb-5">
-                        <form>
-                            <!--First row-->
-                            <div class="row">
-                                <!--First column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="form41" class="form-control">
-                                        <label for="form41" class="">Your name</label>
-                                    </div>
-                                </div>
+              <!--Description-->
+              <p
+                class="black-text text-uppercase font-weight-bold"
+                align="justify"
+              >
+                Server-side
+              </p>
+              <ul>
+                <li>PHP</li>
+                <li>Laravel Framework</li>
+                <li>API Development</li>
+                <li>PHP Unit</li>
+              </ul>
 
-                                <!--Second column-->
-                                <div class="col-md-6">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="form52" class="form-control">
-                                        <label for="form52" class="">Your email</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.First row-->
+              <p
+                class="black-text text-uppercase font-weight-bold"
+                align="justify"
+              >
+                Database | Storage
+              </p>
+              <ul>
+                <li>MySQL</li>
+                <li>Redis</li>
+                <li>MongoDB</li>
+                <li>Amazon Aws</li>
+              </ul>
 
-                            <!--Second row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <input type="text" id="form51" class="form-control">
-                                        <label for="form51" class="">Subject</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/Second row-->
+              <p
+                class="black-text text-uppercase font-weight-bold"
+                align="justify"
+              >
+                Client-Side
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Jquery</li>
+                <li>VueJS</li>
+                <li>NextJS</li>
+                <li>Reactjs</li>
+              </ul>
+              <p
+                class="black-text text-uppercase font-weight-bold"
+                align="justify"
+              >
+                Soft Skill
+              </p>
+              <ul>
+                <li>Technical Documentation</li>
+                <li>Project Planning</li>
+                <li>Resource Management</li>
+                <li>Research Skills</li>
+                <li>Problem Solving</li>
+                <li>Organizational Skills</li>
+              </ul>
+            </div>
+            <!--/Second column-->
+          </div>
+          <!--/First row-->
+        </section>
+        <!-- /.Second section -->
+      </div>
+      <!--/Second container-->
 
-                            <!--Third row-->
-                            <div class="row">
-                                <!--First column-->
-                                <div class="col-md-12">
-                                    <div class="md-form mb-0">
-                                        <textarea type="text" id="form76" class="md-textarea form-control" rows="3"></textarea>
-                                        <label for="form76">Your message</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--/.Third row-->
-                        </form>
+      <!--Third container-->
+      <div class="container-fluid" style="background-color: #e8eaec">
+        <div class="container-fluid">
+          <!--Section: Main portfolio-->
+          <section id="portfolio" class="section pt-3 pb-3">
+            <h1
+              class="text-center text-uppercase font-weight-bold mt-5 mb-3 mt-5 wow fadeIn"
+              data-wow-delay="0.2s"
+            >
+              My projects
+            </h1>
 
-                        <div class="text-center text-md-left mt-4">
-                            <a class="btn btn-outline-black"><strong>Send</strong></a>
-                        </div>
-                    </div>
-                    <!--.First column-->
+            <!--Section description-->
+            <p
+              class="text-center w-responsive mx-auto text-uppercase font-weight-bold wow fadeIn"
+              data-wow-delay="0.2s"
+            >
+              All about my work
+            </p>
+            <div class="line line-v2 wow fadeIn" data-wow-delay="0.2s"></div>
 
-                    <!--Second column-->
-                    <div class="col-md-4">
-                        <ul class="contact-icons list-unstyled text-center">
-                            <li><i class="fa fa-map-marker fa-2x"></i>
-                                <p>Quezon City,Metro manila,Philippines</p>
-                            </li>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto my-5">
+              Some of my projects are private applications and won't be
+              displayed in this portfolio. Most of my work revolves around
+              developing e-commerce applications and integrating APIs.
+            </p>
 
-                            <li><i class="fa fa-phone fa-2x"></i>
-                                <p>+63 905 3925 129</p>
-                            </li>
-
-                            <li><i class="fa fa-envelope fa-2x"></i>
-                                <p>Batacbryankit@gmail.com</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--.Second column-->
-
+            <!--First row-->
+            <!-- Card -->
+            <div class="container mb-2">
+              <div class="card card-cascade wider reverse">
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img
+                    class="card-img-top"
+                    src="assets/images/gym.jpg"
+                    alt="Card image cap"
+                  />
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
                 </div>
 
-            </section>
-            <!--/Section: Contact v.2-->
+                <!-- Card content -->
+                <div class="card-body card-body-cascade text-center">
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>Alpha Gym</strong></h4>
+                  <!-- Subtitle -->
+                  <h6 class="font-weight-bold indigo-text py-2">GYM</h6>
+                  <!-- Text -->
+                  <p class="card-text">
+                    This website marks my initial venture into web development,
+                    crafted during my bootcamp days as I embarked on my journey
+                    as a full-stack web developer. It's built using basic HTML,
+                    CSS, and JavaScript.
+                  </p>
+                  <a
+                    href="https://bryankit.github.io/alphagym/"
+                    target="_blank"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary waves-effect"
+                    >
+                      Visit site
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="container mb-2">
+              <div class="card card-cascade wider reverse">
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img
+                    class="card-img-top"
+                    src="assets/images/coffee.jpg"
+                    alt="Card image cap"
+                  />
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
 
+                <!-- Card content -->
+                <div class="card-body card-body-cascade text-center">
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>Tara Kape</strong></h4>
+                  <!-- Subtitle -->
+                  <h6 class="font-weight-bold indigo-text py-2">Coffee Shop</h6>
+                  <!-- Text -->
+                  <p class="card-text">
+                    The project utilizes Laravel version 5.6 and is designed as
+                    a coffee shop platform inspired by the layout and
+                    functionality of the Starbucks website, enabling users to
+                    conveniently place coffee orders.
+                  </p>
+                  <a href="https://tarakape.000webhostapp.com/" target="_blank">
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary waves-effect"
+                    >
+                      Visit site
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="container mb-2">
+              <div class="card card-cascade wider reverse">
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img
+                    class="card-img-top"
+                    src="assets/images/btivcr.png"
+                    alt="Card image cap"
+                  />
+                  <a href="#!">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body card-body-cascade text-center">
+                  <!-- Title -->
+                  <h4 class="card-title"><strong>BTI VCR</strong></h4>
+                  <!-- Subtitle -->
+                  <h6 class="font-weight-bold indigo-text py-2">
+                    Vehicle Condition Report
+                  </h6>
+                  <!-- Text -->
+                  <p class="card-text">
+                    This project involves a detailed report on vehicle
+                    conditions, which the logistics company uses to improve
+                    efficiency and make vehicle management smoother. It's built
+                    with Next.js and runs on Microsoft Azure services for
+                    deployment.
+                  </p>
+                  <a
+                    href="https://calm-forest-07bc25a00.4.azurestaticapps.net/"
+                    target="_blank"
+                  >
+                    <button
+                      type="button"
+                      class="btn btn-outline-primary waves-effect"
+                    >
+                      Visit site
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Card -->
+            <!--/First row-->
+          </section>
+          <!--/Section: Main portfolio-->
         </div>
-        <!--/Fourth container-->
+      </div>
+      <!--/Third container-->
 
-    </main>
-    <!--/Main layout-->
-   
-    <!-- Scrollspy -->
-    <div class="dotted-scrollspy clearfix d-none d-sm-block">
-        <ul class="nav smooth-scroll flex-column">
-            <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#services"><span></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#portfolio"><span></span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
-        </ul>
-    </div>
-
-   <!-- Footer -->
-<footer class="page-footer font-small elegant-color darken-3">
-
-    <!-- Footer Elements -->
-    <div class="container">
-
-      <!-- Grid row-->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-12 py-5">
-          <div class="mb-5 flex-center">
-
-            <!-- Facebook -->
-            
-                <a href="https://www.facebook.com/onemaxrep9000" target="_blank" >
-                  <i class="fab fa-facebook-square fa-lg  mr-md-5 mr-3 fa-2x " id="fb"> </i>
-                </a>
-            
-          
-           
-            <!--Linkedin -->
-            <a href="" target="_blank">
-              <i class="fab fa-linkedin-in fa-lg  mr-md-5 mr-3 fa-2x " id="li"> </i>
-            </a>
-          
-            
-            <a href="https://gitlab.com/bryankit" target="_blank">
-              <i class="fab fa-gitlab fa-2x fa-lg orange-text mr-md-5 mr-3"> </i>
-            </a>
-
-            <a href="https://github.com/bryankit" target="_blank">
-              <i class="fab fa-github fa-2x  fa-lg white-text mr-md-5 mr-3"> </i>
-            </a>
-
+      <!--Streak-->
+      <div
+        class="streak streak-photo streak-md py-4"
+        style="
+          background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/City/12-col/img%20%2822%29.jpg');
+        "
+      >
+        <div class="mask flex-center rgba-stylish-strong py-4">
+          <div
+            class="white-text smooth-scroll wow fadeIn"
+            data-wow-delay="0.2s"
+          >
+            <h3 class="text-center h3-responsive mb-5">
+              <i class="fa fa-quote-left" aria-hidden="true"></i> When something
+              is important enough, you do it even if the odds are not in your
+              favor. <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </h3>
+            <h5
+              class="text-center font-italic wow fadeIn"
+              data-wow-delay="0.2s"
+            >
+              ~ Elon Musk
+            </h5>
           </div>
         </div>
-        <!-- Grid column -->
-
       </div>
-      <!-- Grid row-->
+      <!--/Streak-->
 
+      <!--Fourth container-->
+      <div class="container">
+        <!-- Contact -->
+        <section id="contact" class="section mb-4">
+          <!--Section heading-->
+          <h1
+            class="text-center text-uppercase font-weight-bold mt-5 pt-4 mb-3 wow fadeIn"
+            data-wow-delay="0.2s"
+          >
+            Contact me
+          </h1>
+          <!--Section description-->
+          <p
+            class="text-center text-uppercase font-weight-bold wow fadeIn"
+            data-wow-delay="0.2s"
+          >
+            to get more information
+          </p>
+          <div class="line wow fadeIn" data-wow-delay="0.2s"></div>
+
+          <!--Section sescription-->
+
+          <div class="row wow fadeIn" data-wow-delay="0.4s">
+            <!--First column-->
+            <div class="col-md-8 mb-5">
+              <form>
+                <!--First row-->
+                <div class="row">
+                  <!--First column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input type="text" id="form41" class="form-control" />
+                      <label for="form41" class="">Your name</label>
+                    </div>
+                  </div>
+
+                  <!--Second column-->
+                  <div class="col-md-6">
+                    <div class="md-form mb-0">
+                      <input type="text" id="form52" class="form-control" />
+                      <label for="form52" class="">Your email</label>
+                    </div>
+                  </div>
+                </div>
+                <!--/.First row-->
+
+                <!--Second row-->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <input type="text" id="form51" class="form-control" />
+                      <label for="form51" class="">Subject</label>
+                    </div>
+                  </div>
+                </div>
+                <!--/Second row-->
+
+                <!--Third row-->
+                <div class="row">
+                  <!--First column-->
+                  <div class="col-md-12">
+                    <div class="md-form mb-0">
+                      <textarea
+                        type="text"
+                        id="form76"
+                        class="md-textarea form-control"
+                        rows="3"
+                      ></textarea>
+                      <label for="form76">Your message</label>
+                    </div>
+                  </div>
+                </div>
+                <!--/.Third row-->
+              </form>
+
+              <div class="text-center text-md-left mt-4">
+                <a class="btn btn-outline-black"><strong>Send</strong></a>
+              </div>
+            </div>
+            <!--.First column-->
+
+            <!--Second column-->
+            <div class="col-md-4">
+              <ul class="contact-icons list-unstyled text-center">
+                <li>
+                  <i class="fa fa-map-marker fa-2x"></i>
+                  <p>Quezon City,Metro manila,Philippines</p>
+                </li>
+
+                <li>
+                  <i class="fa fa-phone fa-2x"></i>
+                  <p>+63 976 1077 630</p>
+                </li>
+
+                <li>
+                  <i class="fa fa-envelope fa-2x"></i>
+                  <p>Batacbryankit@gmail.com</p>
+                </li>
+              </ul>
+            </div>
+            <!--.Second column-->
+          </div>
+        </section>
+        <!--/Section: Contact v.2-->
+      </div>
+      <!--/Fourth container-->
+    </main>
+    <!--/Main layout-->
+
+    <!-- Scrollspy -->
+    <div class="dotted-scrollspy clearfix d-none d-sm-block">
+      <ul class="nav smooth-scroll flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#home"><span></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about"><span></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services"><span></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio"><span></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"><span></span></a>
+        </li>
+      </ul>
     </div>
-    <!-- Footer Elements -->
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 by 
-      <a>BryanKit</a>
-    </div>
-    <!-- Copyright -->
+    <!-- Footer -->
+    <footer class="page-footer font-small elegant-color darken-3">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!-- Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-12 py-5">
+            <div class="mb-5 flex-center">
+              <!-- Facebook -->
 
-  </footer>
-  <!-- Footer -->
+              <!--Linkedin -->
+              <a
+                href="https://www.linkedin.com/in/bryan-kit-batac-445731b9/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in fa-lg mr-md-5 mr-3 fa-2x" id="li">
+                </i>
+              </a>
+
+              <a href="https://gitlab.com/bryankit" target="_blank">
+                <i class="fab fa-gitlab fa-2x fa-lg orange-text mr-md-5 mr-3">
+                </i>
+              </a>
+
+              <a href="https://github.com/bryankit" target="_blank">
+                <i class="fab fa-github fa-2x fa-lg white-text mr-md-5 mr-3">
+                </i>
+              </a>
+            </div>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </div>
+      <!-- Footer Elements -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2024 by
+        <a>BryanKit</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
     <!--/Footer-->
-    
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"
+    ></script>
 
     <script>
-         
-        //Animation init
-        new WOW().init();
-        
-        // initialize scrollspy
-        $('body').scrollspy({
-            target: '.dotted-scrollspy'
-        });
+      //Animation init
+      new WOW().init();
 
-        // initialize lightbox
-        $(function () {
-            $("#mdb-lightbox-ui").load("../mdb-addons/mdb-lightbox-ui.html");
-        });
+      // initialize scrollspy
+      $('body').scrollspy({
+        target: '.dotted-scrollspy',
+      });
 
-        $('.navbar-collapse a').click(function(){
-            $(".navbar-collapse").collapse('hide');
-        });
+      // initialize lightbox
+      $(function () {
+        $('#mdb-lightbox-ui').load('../mdb-addons/mdb-lightbox-ui.html');
+      });
+
+      $('.navbar-collapse a').click(function () {
+        $('.navbar-collapse').collapse('hide');
+      });
     </script>
-
-</body>
+  </body>
 </html>
